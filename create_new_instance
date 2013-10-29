@@ -1,0 +1,7 @@
+#!/bin/bash
+
+MACHINE_NAME=$1
+mkdir $MACHINE_NAME
+cp Vagrantfile $MACHINE_NAME/
+cd $MACHINE_NAME
+vagrant up
